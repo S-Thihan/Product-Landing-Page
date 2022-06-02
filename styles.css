@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-modify {
+  border: 2px solid #522fc0 !important;
+}
+
+.nav-modify {
+  padding-right: 40px;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.service-lists {
+  list-style-type: none;
+}
+
+.service-lists li::before,
+.plans li::before {
+  content: "⦿";
+  margin-right: 5px;
+  font-size: 20px;
+  color: #522fc0;
+}
+
+#btn-modify,
+#submit {
+  border: 2px solid #522fc0;
+  color: #522fc0;
+  background-color: #fff;
+}
+
+.card-color {
+  border: 3px solid #522fc0;
+}
+
+.profile-link {
+  color: #522fc0;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
